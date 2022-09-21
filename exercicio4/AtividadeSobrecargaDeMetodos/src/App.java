@@ -3,13 +3,13 @@ import java.util.SimpleDateFormat;
 
 public class App {
 
-    public class Funcionario {
+    public static class Funcionario {
 
         private String nome;
-        private String dataAdmissao;
+        private Date dataAdmissao;
         private float salario;
     
-        public Funcionario(String nome, String dataAdmissao, float salario) {
+        public Funcionario(String nome, Date dataAdmissao, float salario) {
             this.nome = nome;
             this.dataAdmissao = dataAdmissao;
             this.salario = salario;
@@ -31,11 +31,11 @@ public class App {
             this.nome = nome;
         }
     
-        public String getDataAdmissao() {
+        public Date getDataAdmissao() {
             return dataAdmissao;
         }
     
-        public void setDataAdmissao(String dataAdmissao) {
+        public void setDataAdmissao(Date dataAdmissao) {
             this.dataAdmissao = dataAdmissao;
         }
 
@@ -49,7 +49,7 @@ public class App {
 
     }
 
-    public class Relogio {
+    public static class Relogio {
 
         public void inicializar(int hora, int minuto, int segundo) {
             System.out.println(String.format("%s:%s:%s", hora, minuto, segundo));   
@@ -64,7 +64,8 @@ public class App {
     }
     
     public static void main(String[] args) throws Exception {
-        Funcionario funcionario = new Funcionario("João", "01/01/2020", 1000);
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        Funcionario funcionario = new Funcionario("João", sdf.parse("01/01/2019"), 1000);
         System.out.println(funcionario.getNome());
         System.out.println(funcionario.getDataAdmissao());
         System.out.println(funcionario.getSalario());   
@@ -100,5 +101,4 @@ Crie uma classe denominada Relogio de acordo com as instruções a seguir:
 2. Crie outro método inicializar, que recebe somente a hora e o minuto, inicializando o segundo com 1
 3. Crie outro método inicializar, que recebe somente a hora, inicializando o minuto e o segundo com 1
 4. Crie uma classe para demonstrar o funcionamento dos métodos criados
-
 */
