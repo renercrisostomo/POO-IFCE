@@ -4,7 +4,7 @@
 
 Explique conceitualmente o significado de sobrescrita e suas regras.
 
-- A sobrescrita é um recurso da linguagem de programação Java que permite que um determinado método seja reescrito em uma subclasse, de forma a alterar o seu comportamento original. 
+- A sobrescrita é um recurso da linguagem de programação Java que permite que um determinado método seja reescrito em uma subclasse, de forma a alterar o seu comportamento original.
 
 ## Questão 2
 
@@ -19,7 +19,7 @@ Utilizando sua IDE de preferência, implemente o estudo de caso a seguir:
 
 ### **Sistema hospitalar**
 
-Crie um sistema hospitalar simplificado para realizar o cadastro de pacientes e equipe médica. 
+Crie um sistema hospitalar simplificado para realizar o cadastro de pacientes e equipe médica.
 Este sistema deve conter as classes a seguir: Pessoa, Paciente, Medico e Hospital. Observe o uso de
 composição e herança.
 Informações e comportamentos que devem estar contidas em cada classe:
