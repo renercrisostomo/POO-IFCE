@@ -1,4 +1,4 @@
-# Exercício 8 - AtividadeExcecoes2
+# Exercício 9 - AtividadeExcecoes2
 
 ## 1. Quando deve-se criar uma exceção personalizada? Explique.
 
