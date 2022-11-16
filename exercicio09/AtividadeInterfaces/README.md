@@ -9,7 +9,7 @@
 ## 2. Interfaces podem ter métodos concretos? Explique.
 
 ```java
-// Interfaces não podem ter métodos concretos, somente métodos abstratos.
+// Não, interfaces não podem ter métodos concretos. Isso se deve ao fato de que as interfaces são utilizadas como forma de garantir que determinadas classes implementem um conjunto de métodos e atributos específicos. Dessa forma, se uma interface possuísse métodos concretos, as classes que a implementassem não seriam obrigadas a implementar esses métodos, o que violaria o propósito das interfaces.
 ```
 
 ## 3. Demonstre como o uso de default methods pode evitar a repetição de código.
