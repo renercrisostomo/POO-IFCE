@@ -44,16 +44,7 @@ public void nomeDoMétodo() throws ExceçãoType {
 throw new ExceçãoType("Mensagem de erro");
 ```
 
-## 5. Crie a classe Cadastro que contém um método main e solicita do usuário o fornecimento das
-informações a seguir: nomeCompleto e telefone (composto por ddd e numero). Você pode
-utilizar as classes Scanner ou JOptionPane para realizar esta tarefa. Após receber as
-informações, verifique se nomeCompleto é diferente de vazio. Adicionalmente, faça a leitura do
-telefone em duas etapas. A primeira deve solicitar o ddd e a segunda o numero. O ddd deve
-possuir dois dígitos inteiros e o numero oito ou nove dígitos inteiros. Se o usuário fornecer
-corretamente estas informações, você deve emitir uma mensagem informando que o cadastro foi
-realizado e imprimir os valores recebidos. Caso alguma das verificações falhe, você deve notificar o
-usuário através do lançamento e tratamento de uma exceção. Em seguida, deve reiniciar o
-processo desde o início, repetindo esta operação até que todas as informações sejam preenchidas.
+## 5. Crie a classe Cadastro que contém um método main e solicita do usuário o fornecimento das informações a seguir: nomeCompleto e telefone (composto por ddd e numero). Você pode utilizar as classes Scanner ou JOptionPane para realizar esta tarefa. Após receber as informações, verifique se nomeCompleto é diferente de vazio. Adicionalmente, faça a leitura do telefone em duas etapas. A primeira deve solicitar o ddd e a segunda o numero. O ddd deve possuir dois dígitos inteiros e o numero oito ou nove dígitos inteiros. Se o usuário fornecer corretamente estas informações, você deve emitir uma mensagem informando que o cadastro foi realizado e imprimir os valores recebidos. Caso alguma das verificações falhe, você deve notificar o usuário através do lançamento e tratamento de uma exceção. Em seguida, deve reiniciar o processo desde o início, repetindo esta operação até que todas as informações sejam preenchidas.
 
 ```java
 public class Cadastro {
